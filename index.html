@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords" content="pageviews, traffic, no credit card">
+  <meta name="description" content="Get pageviews on traffic-based pricing.">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Interactive pricing component</title>
+</head>
+<body>
+
+  <main>
+    <section>
+      <div class="circles">
+        <img src="./images/pattern-circles.svg" alt="Circles">
+      </div>
+      <div class="hero-section">
+        <h1>Simple, traffic-based pricing</h1>
+        <p>Sign-up for our 30-day trial. No credit card required.</p>
+      </div>
+    </section>
+    <section>
+      <div class="pricing-container">
+        <div class="top">
+          <div class="price">
+            <span>100k Pageviews</span>
+            <p><span id="active-price">$16.00</span>/<span id="bundle">month</span></p>
+          </div>
+          <div class="range-input">
+            <input type="range" min="1" max="32" value="16" id="rangeInput">
+          </div>
+        </div>
+      </div>
+      <div class="billing">
+        <span>Monthly Billing</span>
+        <div class="icon">
+          <span></span>
+        </div>
+        <p>Yearly Billing <span id="discount">25% discount</span></p>
+      </div>
+      <hr>
+      <div class="bottom">
+        <ul>
+          <li>Unlimited websites</li>
+          <li>100% data ownership</li>
+          <li>Email reports</li>
+        </ul>
+        <button type="button" id="startBtn">Start my trial</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Akib</a>.
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
